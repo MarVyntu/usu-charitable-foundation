@@ -1,0 +1,42 @@
+.main-auction {
+  background-image: url(../img/logo-icons/background-donate-auction.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: 100% auto;
+  z-index: 5;
+  height: 600px;
+}
+
+/* .auction-header {
+  margin-top: 35px;
+  margin-right: 25px;
+} */
+
+.main-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title h1 {
+  font-family: "Swis721 LtEx BT";
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 3.4em;
+  color: var(--dark-blue-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-title h2 {
+  font-family: "Swis721 LtEx BT";
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 3.4em;
+  color: var(--dark-blue-color);
+  text-align: center;
+  text-transform: uppercase;
+}

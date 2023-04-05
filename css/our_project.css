@@ -1,0 +1,75 @@
+/* ======================================================== */
+
+.header-our-projects {
+  background-image: url(../img/imges/background-our-projects.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: 63% 37%;
+  background-size: cover;
+}
+
+#our-projects {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  padding: 40px;
+}
+
+.places__content-favorite {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* padding: 30px 30px; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 960px) {
+  .places__content-favorite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+
+/* @media (min-width: 768px) {
+  .places__preview-img img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .military-comand {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+
+/* .soldier {
+  border: 1px solid var(--chapter-font-color);
+  display: grid;
+  grid-template-rows: auto;
+
+  margin: 3px;
+}
+
+.soldier_description {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  color: #707070;
+  text-align: center;
+} */
+
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */
+/* ================================================================================== */

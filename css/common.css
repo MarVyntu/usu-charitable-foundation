@@ -1,0 +1,184 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap); */
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  --title-font-color-white: rgba(255, 255, 255, 0.9);
+  --title-font-color-light: rgba(255, 255, 255, 0.7);
+  --font-color-light: rgba(255, 255, 255, 0.6);
+
+  --all-background-color: rgb(222, 239, 247);
+  --main-text-color: rgb(72, 79, 91);
+  --dark-blue-color: rgb(8, 8, 65);
+  --main-backgraund-color: rgb(0, 173, 239);
+  --main-backgraund-light-color: rgba(0, 173, 239, 0.6);
+  --background-dark: rgb(35, 36, 40); /*Колір фону темних блоків*/
+  --chapter-font-color: #6f7380; /*Колір шрифту назви блоку у світлих блоках */
+  --chapter-font-color-light: #ffffff99; /*Колір шрифту назви блоку у темних блоках*/
+  --title-font-color: #505155; /*Колір заголовку всередині блоку (для всіх блоків)*/
+  /* --title-font-color-light: #fff; */
+  /*Колір частини тексту заголовку у темних блоках*/
+  --background-bottom-color: rgb(
+    20,
+    169,
+    238
+  ); /*Колір кнопок та їх границь у розділах*/
+}
+
+@font-face {
+  font-family: "Swis721 Lt BT";
+  src: url("../fonts_cv/Sw721Lt.ttf") format("TTF"),
+    url("../fonts_cv/Sw721Lt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Swis721 LtEx BT";
+  src: url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF"),
+    url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../fonts_cv/futura-book-bt.ttf") format("TTF"),
+    url("../fonts_cv/futura-book-bt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* reset-start */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset-finish */
+
+body {
+  background-color: rgb(222, 239, 247);
+}

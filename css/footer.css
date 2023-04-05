@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 173, 239),
+    rgb(8, 8, 65),
+    rgb(0, 173, 239)
+  );
+  /* background-color: darkblue; */
+  /* background: rgb(206, 234, 247); */
+  border-top: 1px solid var(--dark-blue-color);
+  border-bottom: 1px solid var(--dark-blue-color);
+  margin-bottom: 3em;
+}
+
+.footer ul {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  padding-top: 0.2em;
+}
+
+.footer ul li a {
+  margin: 0.8em 0.2em 1em 0.2em;
+  cursor: pointer;
+}
+
+/* footer-icons  */
+
+span.fc {
+  position: relative;
+  background-position: left top;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo-icons/fcsm.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+span.fc:hover {
+  background-position: left top -40px;
+  cursor: pointer;
+  background-origin: content-box;
+}
+
+span.tw {
+  position: relative;
+  background-position: left top;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo-icons/twsm.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+span.tw:hover {
+  background-position: left top -40px;
+  cursor: pointer;
+  background-origin: content-box;
+}
+
+span.in {
+  position: relative;
+  background-position: left top;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo-icons/insm.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+span.in:hover {
+  background-position: left top -40px;
+  cursor: pointer;
+  background-origin: content-box;
+}
+
+span.ml {
+  position: relative;
+  background-position: left top;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo-icons/mlsm.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+span.ml:hover {
+  background-position: left top -40px;
+  cursor: pointer;
+  background-origin: content-box;
+}
+
+span.tl {
+  position: relative;
+  background-position: left top;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/logo-icons/tlsm.png);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-block;
+}
+span.tl:hover {
+  background-position: left top -40px;
+  cursor: pointer;
+  background-origin: content-box;
+}
+@media (min-width: 768px) {
+  .footer ul li a {
+    margin: 0.8em 0.7em 1em 0.7em;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer ul li a {
+    margin: 0.8em 1.5em 1em 1.5em;
+    cursor: pointer;
+  }
+}

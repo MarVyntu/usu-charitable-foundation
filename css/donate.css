@@ -1,0 +1,119 @@
+/* ============================================================= */
+
+.donate-auction {
+  background-image: url(../img/logo-icons/background-donate-auction.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: 100% auto;
+  z-index: 5;
+}
+
+.donate-header_logo {
+  padding: 20px;
+}
+
+.donate-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.donate-header_nav {
+  display: flex;
+  justify-content: end;
+  align-items: first baseline;
+  margin-top: 15px;
+  margin-right: 35px;
+}
+
+.donate-header_nav a {
+  background-color: var(--main-backgraund-light-color);
+  border: 1px solid var(--dark-blue-color);
+  color: var(--all-background-color);
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all ease 1s;
+  margin-left: 5px;
+}
+
+.donate-header_nav a:hover {
+  background-color: var(--title-font-color-white);
+  border: 1px solid var(--dark-blue-color);
+  color: var(--dark-blue-color);
+  text-transform: uppercase;
+  transition: all ease 1s;
+}
+
+/* .donate-header_nav a .donate-main-title {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
+
+.donate-main-title h1 {
+  font-family: "Swis721 LtEx BT";
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-size: 3em;
+  font-weight: 600;
+  /* line-height: 1.4em; */
+  color: var(--dark-blue-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.donate-title {
+  text-align: center;
+}
+
+.donate-input {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.donate-input input {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.donate-form button {
+  width: 150px;
+  border: 1px solid var(--dark-blue-color);
+  background-color: var(--main-backgraund-light-color);
+  color: var(--dark-blue-color);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: all ease 1s;
+  font-family: "Swis721 LtEx BT";
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.donate-form button:hover {
+  background-color: var(--all-background-color);
+  color: var(--dark-blue-color);
+  transition: all ease 0.5s;
+}
+
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */
+/* ============================================================= */

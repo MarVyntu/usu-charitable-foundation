@@ -1,0 +1,486 @@
+/* @font-face {
+  font-family: "Swis721 Lt BT";
+  src: url("../fonts_cv/Sw721Lt.ttf") format("TTF"),
+    url("../fonts_cv/Sw721Lt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Swis721 LtEx BT";
+  src: url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF"),
+    url("../fonts_cv/Swiss721LightExtendedBT.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url("../fonts_cv/futura-book-bt.ttf") format("TTF"),
+    url("../fonts_cv/futura-book-bt.ttf") format("TTF");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.places {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 24px 90px 24px;
+  font-family: "Swis721 LtEx BT";
+  color: var(--title-font-color);
+}
+
+.places__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+}
+
+/* .places__content-last {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+} */
+
+.places__list {
+  margin-top: 50px;
+}
+
+.places__preview {
+  width: 100%;
+}
+
+.places__preview__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.places__point__text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--chapter-font-color);
+}
+
+.places__header__caption {
+  font-size: 13px;
+  color: var(--chapter-font-color);
+}
+
+.places__header__title {
+  font-family: "Swis721 LtEx BT";
+  font-weight: bold;
+  font-size: 45px;
+  color: var(--title-font-color);
+}
+
+.places__header__description {
+  margin-top: 25px;
+  font-weight: inherit;
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--title-font-color);
+}
+
+.places__nav {
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+  overflow-y: visible;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.places__nav:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.125;
+  background-color: #232428;
+}
+
+.places__nav__tab {
+  cursor: pointer;
+  position: relative;
+}
+
+.places__nav__tab:active {
+  font-weight: bold;
+  color: var(--title-font-color);
+}
+
+.nav__tab__active {
+  border-bottom: 2px solid var(--sign-start-color);
+}
+
+.nav__tab__active .places__nav__tab-title {
+  color: var(--title-font-color);
+}
+
+.places__nav__tab-title {
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  white-space: nowrap;
+  color: var(--title-font-color);
+}
+
+.nav__tab__title:active {
+  color: var(--title-font-color);
+}
+
+.places__content {
+  display: none;
+}
+
+.content__tab__active {
+  display: grid;
+}
+
+.places__nav__tab-title {
+  padding: 15px 20px 15px 20px;
+  font-weight: 700;
+  color: #969799;
+}
+
+.places__info {
+  display: grid;
+  padding: 39px 43px;
+}
+
+.places__header__text {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Swis721 LtEx BT";
+  /* font-weight: bold; */
+  color: var(--title-font-color);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.places__subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--title-font-color);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.places__description {
+  margin-top: 30px;
+}
+
+.places__description__text {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  color: #707070;
+}
+
+.places__details {
+  margin-top: 20px;
+}
+
+.places__benefit {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.places__benefit__text {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--title-font-color);
+}
+
+.places__icon {
+  margin-right: 10px;
+  width: 20px;
+  height: 24px;
+}
+
+.places__bottom {
+  margin-bottom: 0px;
+  margin-top: 42px;
+}
+
+.places__bottom__container {
+  display: flex;
+  border: 1px solid var(--background-bottom-color);
+  background-color: var(--background-bottom-color);
+  height: 42px;
+  width: 134px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.places__bottom__container:hover {
+  background: var(--title-font-color-white);
+  color: var(--dark-blue-color);
+  transition: all ease 0.5s;
+  border: 1px solid var(--dark-blue-color);
+}
+
+/* .places__bottom__container a {
+  text-transform: uppercase;
+} */
+
+.places__bottom__contact_us {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  color: var(--title-font-color-light);
+  text-decoration: none;
+}
+
+.places__bottom__contact_us:hover {
+  color: var(--dark-blue-color);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 320px) {
+  .places__preview {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .places__preview img {
+    width: 300px;
+  }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 768px) {
+  .places__preview {
+    width: 100%;
+  }
+
+  .places__preview img {
+    width: 100%;
+  }
+  .places {
+    padding: 60px 32px 110px 32px;
+  }
+
+  .places__header__text {
+    font-size: 36px;
+  }
+
+  .places__night__hotel {
+    flex-direction: row;
+    margin-top: 33px;
+  }
+
+  .places__night {
+    margin-bottom: 0;
+  }
+
+  .places__info {
+    padding: 46px 52px;
+  }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 950px) {
+  .places__preview {
+    width: 100%;
+  }
+
+  .places__preview img {
+    width: 100%;
+  }
+
+  .places__preview {
+    /* object-fit: cover; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .places {
+    padding: 60px 40px 130px 40px;
+  }
+
+  .places__hotel-name {
+    font-size: 15px;
+  }
+
+  .places__info {
+    padding: 60px 70px;
+  }
+
+  .places__header {
+    max-width: 60%;
+  }
+  .places__content-last {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 1200px) {
+  .places {
+    padding: 60px 15px 130px 15px;
+  }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.main__helps {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  border: 1px solid var(--dark-blue-color);
+}
+
+/* .helps__auction,
+.helps__donate {
+  margin: 1%;
+  border: 1px solid var(--dark-blue-color);
+} */
+
+.helps__title {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.helps__title h3 {
+  font-family: "Swis721 LtEx BT";
+  color: var(--title-font-color);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-top: 24px;
+  /* line-height: 3.4em; */
+}
+
+.helps__description {
+  padding-bottom: 1.2em;
+  color: var(--chapter-font-color);
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+
+.helps__description-text {
+  line-height: 2em;
+}
+
+.helps__description-signature {
+  padding: 0.5em;
+  color: var(--title-font-color);
+  margin-bottom: 0.5em;
+}
+
+.helps__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button-donate,
+.button-auction {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.donate,
+.auction {
+  border: 1px solid var(--dark-blue-color);
+  background-color: var(--dark-blue-color);
+  color: var(--all-background-color);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.donate:hover,
+.auction:hover {
+  background-color: var(--main-backgraund-color);
+  border: 1px solid var(--dark-blue-color);
+  color: var(--dark-blue-color);
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  transition: all ease 1s;
+}
+
+.button-donate a,
+.button-auction a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.created {
+  font-size: 0.5em;
+  font-weight: 200;
+  text-align: right;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.created a {
+  text-decoration: none;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
